@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .topbar {
+            position: absolute;
+            right: 0;
+            left: 0;
+            height: 50px;
+            background: blue;
+        }
+        .leftbar{
+            position: absolute;
+            top: 50px;
+            bottom: 0;
+            width: 200px;
+            background: #666666;
+        }
+        .stretchbar{
+            position: absolute;
+            top: 50px;
+            left: 200px;
+            right: 0;
+            bottom: 0;
+            min-width: 600px;
+            min-height: 500px;
+            background: red;
+        }
+        .FLbar{
+            width: 200px;
+            height: 30px;
+            float: left;
+            background: green;
+        }
+        .FRbar{
+            width: 200px;
+            height: 30px;
+            float: right;
+            background: orange;
+        }
+    </style>
+    <!-- 结论：若有拉伸布局中有元素设置有最小宽高，则其他拉伸元素也需要设置最小宽高 -->
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="FLbar"></div>
+        <div class="FLbar"></div>
+        <div class="FRbar"></div>
+        <div class="FRbar"></div>
+    </div>
+    <div class="leftbar"></div>
+    <div class="stretchbar"></div>
+</body>
+
+</html>

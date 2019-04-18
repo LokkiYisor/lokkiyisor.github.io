@@ -1,0 +1,15 @@
+<MKM version="2.0" imageFileUrl="file:///D:/Html5Demo/4.17/Pic/test2.png">
+  <Marks>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="12105912" offsetX="25" offsetY="10" x="73" y="83"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="15066597" offsetX="25" offsetY="10" x="170" y="124"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="32703" offsetX="25" offsetY="10" x="170" y="102"/>
+    <LengthMark direction="3" color="16711680" length="26" x="149" y="89"/>
+    <LengthMark direction="3" color="16711680" length="9" x="140" y="115"/>
+    <LengthMark direction="3" color="16711680" length="5" x="139" y="84"/>
+    <LengthMark direction="3" color="16711680" length="82" x="88" y="84"/>
+    <LengthMark direction="3" color="16711680" length="41" x="159" y="125"/>
+    <LengthMark direction="12" color="16711680" length="162" x="55" y="145"/>
+    <LengthMark direction="12" color="16711680" length="20" x="56" y="130"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="13684944" offsetX="25" offsetY="10" x="177" y="167"/>
+  </Marks>
+</MKM>

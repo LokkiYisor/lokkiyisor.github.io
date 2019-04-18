@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" href="CSS/TextStyle.CSS">
+    <link rel="stylesheet" href="CSS/common.CSS">
+    <link rel="stylesheet" href="CSS/index.CSS">
+    <script src="JS/jquery-1.8.3.min.js"></script>
+    <script src="JS/jquery.nicescroll.js"></script>
+    <script>
+        $(function () {
+            $(".ListMeumBar").niceScroll();
+            $("body").niceScroll();
+        })
+    </script>
+    <style>
+        .nicescroll-rails {
+            background: #dedede
+        }
+
+        .nicescroll-rails div {
+            background: #666666 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerLeftBar LeftFloat">
+            <div class="NavBar LeftFloat">
+                <p class="NavTitleText LeftFloat whiteTexts FS_18">系统导航</p>
+                <div class="headericons RightFloat" id="NavTitleicon"></div>
+            </div>
+            <h1 class="SysTitle whiteTexts FS_23 LeftFloat centerTexts">航空电子商务结算系统</h1>
+        </div>
+        <div class="headerRightBar RightFloat">
+            <div class="ExitBar RightFloat">
+                <div id="Exiticon"></div>
+            </div>
+            <div class="LoginTimeBar RightFloat">
+                <div id="LTicon" class="headericons"></div>
+                <p class="LTText whiteTexts FS_15">登录时间:</p>
+                <span id="Date" class="whiteTexts FS_15">YYYY-MM-DD</span>
+                <span id="Time" class="whiteTexts FS_15">HH:MM</span>
+            </div>
+            <div class="LoginBar MiddleBars RightFloat">
+                <div id="Loginicon1" class="headericons"></div>
+                <p class="UserNameText whiteTexts centerTexts FS_18">UserName</p>
+                <div id="Loginicon2" class="headericons"></div>
+                <div class="LoginCheckBar">
+                    <div class="changePW overflowHidden">
+                        <p class="CheckBarTexts blackTexts01 FS_15">修改密码</p>
+                    </div>
+                    <div class="ExitLogin overflowHidden">
+                        <p class="CheckBarTexts blackTexts01 FS_15">退出登录</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ListMeumBar">
+        <ul id="MeumTitles">
+            <label class="MainFileHover">
+                <li class="MeumTitleCells MainFileBar">
+                    <div class="ListMeumiconBars LeftFloat">
+                        <img src="Pic/images/icon06.png" alt="" id="MainFileicon" class="ListMeumicons">
+                    </div>
+                    <div class="MainFileText grayTexts03 FS_16 LeftFloat">主文件</div>
+                    <div class="ListiconBar LeftFloat"></div>
+                </li>
+                <ul id="MainFileContentList">
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">银行信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">银行账号信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">差异原因代码信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">差异处理行动代码信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">支付通道提供商信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">支付通道（商户号）信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">销售渠道信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">支付平台业务类型信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">供应商信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">附加产品信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">货币代码信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">汇率信息</a>
+                    </li>
+                    <li class="MFListCells">
+                        <a href="#" class="MFListCellsText grayTexts03 FS_16">拒付原因信息</a>
+                    </li>
+                </ul>
+            </label>
+            <li class="MeumTitleCells DataManageBar">
+                <div class="ListMeumiconBars LeftFloat">
+                    <img src="Pic/images/icon07.png" alt="" id="MainFileicon" class="ListMeumicons">
+                </div>
+                <div class="MainFileText grayTexts03 FS_16 LeftFloat">数据管理</div>
+                <div class="ListiconBar LeftFloat"></div>
+            </li>
+            <li class="MeumTitleCells"></li>
+            <li class="MeumTitleCells"></li>
+            <li class="MeumTitleCells"></li>
+        </ul>
+    </div>
+    <div class="ContentBar">
+        <div class="ContentPage">
+            <div class="ContentPageURLBars overflowHidden">
+                <div class="URLBar">
+                    <div class="URLTitle FS_14 grayTexts04 centerTexts">欢迎使用</div>
+                    <div class="CloseBtn"></div>
+                </div>
+                <div class="URLBar">
+                    <div class="URLTitle FS_14 grayTexts04 centerTexts">银行信息</div>
+                    <div class="CloseBtn"></div>
+                </div>
+            </div>
+            <h3 class="PageTitles">银行信息查询</h3>
+            <div class="SelectBar">
+                <form action="#">
+                    <div class="bankCodeBar">
+                        <label>
+                            <p class="SelectBarSignTexts FS_14 blackTexts01">银行代码:</p>
+                            <input type="text" class="BankCodeinput">
+                        </label>
+                    </div>
+                    <div class="bankabbrBar">
+                        <label>
+                            <p class="SelectBarSignTexts FS_14 blackTexts01">银行简称:</p>
+                            <input type="text" class="BankAbbrinput">
+                        </label>
+                    </div>
+                    <div class="bankNameBar">
+                        <label>
+                            <p class="SelectBarSignTexts FS_14 blackTexts01">银行名称:</p>
+                            <input type="text" class="BankNameinput">
+                        </label>
+                    </div>
+                    <input type="submit" value="查询" class="PostBtn whiteTexts FS_18 MiddleBars">
+                </form>
+            </div>
+            <div class="BtnBar">
+                <button id="ADDBtn" class="Btns">
+                    <img src="Pic/images/icon11.png" alt="" class="addbtnicon MiddleBars btnsicons"><span
+                        class="whiteTexts FS_18">添加</span>
+                </button>
+                <button id="EDITBtn" class="Btns">
+                    <img src="Pic/images/icon12.png" alt="" class="editbtnicon MiddleBars btnsicons"><span
+                        class="whiteTexts FS_18">编辑</span>
+                </button>
+                <button id="DELETEBtn" class="Btns">
+                    <img src="Pic/images/icon10.png" alt="" class="deletebtnicon MiddleBars btnsicons"><span
+                        class="whiteTexts FS_18">删除</span>
+                </button>
+            </div>
+            <div class="TableBar">
+                <table class="TableView">
+                    <tr>
+                        <th>银行代码</th>
+                        <th>银行简称</th>
+                        <th>银行名称</th>
+                        <th>创建ID</th>
+                        <th>创建日期</th>
+                        <th>创建时间</th>
+                        <th>修改ID</th>
+                        <th>修改日期</th>
+                        <th>修改次数</th>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>BOC</td>
+                        <td>工行</td>
+                        <td>中国工商银行</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>09:38:58</td>
+                        <td>liuyangfu</td>
+                        <td>2013-12-06</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <div class="centerTexts">
+                    <ul class="TableBtnBar">
+                        <li>
+                            <button class="homeBtn TableBtns">首页</button>
+                        </li>
+                        <li>
+                            <button class="previousPageBtn TableBtns">上一页</button>
+                        </li>
+                        <li>
+                            <button class="Page01 TableBtns">1</button>
+                        </li>
+                        <li>
+                            <button class="Page02 TableBtns">2</button>
+                        </li>
+                        <li>
+                            <button class="Page03 TableBtns">3</button>
+                        </li>
+                        <li>
+                            <span>...</span>
+                        </li>
+                        <li>
+                            <button class="Page10 TableBtns">10</button>
+                        </li>
+                        <li>
+                            <button class="nextPageBtn TableBtns">下一页</button>
+                        </li>
+                        <li>
+                            <button class="trailerPageBtn TableBtns">尾页</button>
+                        </li>
+                        <li>
+                            <span>共<span class="recordCount">80</span>记录</span>
+                        </li>
+                        <li>
+                            <span>到第<input type="text" value="1" class="JumpInput">页</span>
+                        </li>
+                        <li>
+                            <button class="jumpBtn TableBtns">跳转</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

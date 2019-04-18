@@ -1,0 +1,169 @@
+/* 文字格式 */
+
+.centerTexts {
+    text-align: center;
+}
+
+.ItcTexts {
+    font-style: italic;
+}
+
+.BolderTexts {
+    font-weight: bolder;
+}
+
+/* 省略文本 */
+
+.ellipsisTexts {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 字体颜色 */
+
+.blueTexts02 {
+    color: #68aeef;
+}
+
+.blueTexts01 {
+    color: #63a8eb;
+}
+
+.grayTexts01 {
+    color: #b1b1b1b1;
+}
+
+.grayTexts02 {
+    color: #666666;
+}
+
+.grayTexts03 {
+    color: #e7ebf0;
+}
+
+.grayTexts04 {
+    color: #686767;
+}
+
+.blackTexts01 {
+    color: #333333;
+}
+
+.blackTexts02 {
+    color: #646464;
+}
+
+.blackTexts03 {
+    color: #262626;
+}
+
+.redTexts01 {
+    color: #e4393c;
+}
+
+.whiteTexts {
+    color: white;
+}
+
+/* 字体大小 */
+
+.FS_36 {
+    font-size: 36px;
+}
+
+.FS_35 {
+    font-size: 35px;
+}
+
+.FS_34 {
+    font-size: 34px;
+}
+
+.FS_33 {
+    font-size: 33px;
+}
+
+.FS_32 {
+    font-size: 32px;
+}
+
+.FS_31 {
+    font-size: 31px;
+}
+
+.FS_30 {
+    font-size: 30px;
+}
+
+.FS_29 {
+    font-size: 29px;
+}
+
+.FS_28 {
+    font-size: 28px;
+}
+
+.FS_27 {
+    font-size: 27px;
+}
+
+.FS_26 {
+    font-size: 26px;
+}
+
+.FS_25 {
+    font-size: 25px;
+}
+
+.FS_24 {
+    font-size: 24px;
+}
+
+.FS_23 {
+    font-size: 23px;
+}
+
+.FS_21 {
+    font-size: 21px;
+}
+
+.FS_20 {
+    font-size: 20px;
+}
+
+.FS_19 {
+    font-size: 19px;
+}
+
+.FS_18 {
+    font-size: 18px;
+}
+
+.FS_17 {
+    font-size: 17px;
+}
+
+.FS_16 {
+    font-size: 16px;
+}
+
+.FS_15 {
+    font-size: 15px;
+}
+
+.FS_14 {
+    font-size: 14px;
+}
+
+.FS_13 {
+    font-size: 13px;
+}
+
+.FS_12 {
+    font-size: 12px;
+}
+
+.FS_11 {
+    font-size: 11px;
+}

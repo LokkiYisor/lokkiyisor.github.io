@@ -1,0 +1,468 @@
+/* 头部样式 */
+
+/* 块相关 */
+
+.header {
+    min-width: 1150px;
+    width: 100%;
+    background: #2c84ff;
+    height: 67px;
+}
+
+.headerLeftBar {
+    width: 530px;
+    height: 67px;
+    line-height: 67px;
+}
+
+.headerRightBar {
+    max-width: 800px;
+    min-width: 600px;
+    height: 67px;
+    line-height: 67px;
+}
+
+.NavBar {
+    width: 265px;
+}
+
+.LoginBar {
+    font-size: 0;
+    border-right: 1px solid #4a96ff;
+    height: 67px;
+    position: relative;
+}
+
+.LoginTimeBar {
+    border-right: 1px solid #4a96ff;
+    height: 67px;
+    padding-right: 20px;
+}
+
+.ExitBar {
+    width: 80px;
+    height: 67px;
+}
+
+/* icon相关 */
+
+.headericons {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#NavTitleicon {
+    background-image: url(../Pic/images/icon01.png);
+    margin-top: 22.5px;
+}
+
+#Loginicon1 {
+    background-image: url(../Pic/images/icon02.png);
+}
+
+#Loginicon2 {
+    background-image: url(../Pic/images/icon03.png);
+}
+
+#LTicon {
+    background-image: url(../Pic/images/icon04.png);
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#Exiticon {
+    background-image: url(../Pic/images/icon05.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Text相关 */
+
+.SysTitle {
+    width: 265px;
+}
+
+.UserNameText {
+    display: inline-block;
+    height: 67px;
+    line-height: 67px;
+    padding: 0 10px;
+}
+
+.NavTitleText {
+    text-indent: 2em;
+}
+
+.LTText {
+    display: inline-block;
+}
+
+/* 菜单列表样式 */
+
+/* 块相关 */
+
+.ListMeumBar {
+    min-height: 650px;
+    position: absolute;
+    top: 67px;
+    bottom: 0;
+    left: 0;
+    width: 265px;
+    font-size: 0;
+    background: #333d4b;
+    overflow: auto;
+}
+
+.MeumTitleCells {
+    height: 59px;
+    line-height: 59px;
+    font-size: 0;
+    position: relative;
+    border-bottom: 1px solid #3d4755;
+}
+
+.MainFileBar {
+    height: 60px;
+    padding-top: 10px;
+}
+
+#MainFileicon {
+    margin: 19px 8px 19px 20px;
+}
+
+.MainFileText {
+    display: inline-block;
+    width: 135px;
+}
+
+/* icon相关 */
+
+.ListMeumiconBars {
+    width: 50px;
+    height: 60px;
+}
+
+.ListiconBar {
+    position: absolute;
+    top: 10px;
+    left:205px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../Pic/images/icon09.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ListMeumicons {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+/* 内容样式相关 */
+
+/* 块相关 */
+
+.ContentBar {
+    padding: 10px;
+    min-width: 865px;
+    min-height: 630px;
+    position: absolute;
+    top: 67px;
+    left: 265px;
+    right: 0;
+    bottom: 0;
+    background: #ebebeb;
+}
+
+.ContentPage {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    min-height: 610px;
+    background: #ffffff;
+    padding: 10px;
+    overflow: auto;
+}
+
+.URLBar {
+    height: 34px;
+    line-height: 34px;
+    background: #e9e9e9;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.URLTitle {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.SelectBar {
+    padding: 10px;
+    background: #e5e5e5;
+}
+
+.bankCodeBar {
+    width: 175px;
+    position: relative;
+    display: inline-block;
+}
+
+.bankabbrBar {
+    width: 175px;
+    position: relative;
+    display: inline-block;
+}
+
+.bankNameBar {
+    width: 245px;
+    position: relative;
+    display: inline-block;
+}
+
+.BankCodeinput {
+    width: 173px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 76px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.BankAbbrinput {
+    width: 173px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 76px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.BankNameinput {
+    width: 243px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 76px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.PostBtn {
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    background: #5076ac;
+    border: none;
+    border-radius: 5px;
+}
+
+.BtnBar {
+    padding: 10px 0;
+}
+
+.Btns {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#ADDBtn {
+    background: #2c84ff;
+}
+
+#EDITBtn {
+    background: #4fc61a;
+}
+
+#DELETEBtn {
+    background: #ff8314;
+}
+
+/* icon相关 */
+
+.CloseBtn {
+    background-image: url(../Pic/images/iconBtn1.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btnsicons {
+    margin-bottom: 6px;
+}
+
+/* Text相关 */
+
+.PageTitles {
+    line-height: 60px;
+}
+
+.SelectBarSignTexts {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+/* 二级菜单相关 */
+
+/* 列表二级菜单 */
+
+#MainFileContentList {
+    display: none;
+}
+
+.MFListCells {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+}
+
+.MFListCellsText {
+    text-indent: 50px;
+}
+
+/* 登陆列表额外显示内容 */
+
+.LoginCheckBar {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 160px;
+    height: 82px;
+    background: white;
+    border: 1px solid #a4a4a4;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px 1px #d0d0d0d0;
+    display: none;
+    z-index: 3;
+}
+
+.changePW {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ExitLogin {
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+}
+
+.CheckBarTexts {
+    margin-top: 5px;
+    line-height: 26px;
+    text-indent: 2em;
+}
+
+/* 列表样式 */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+th {
+    border: 1px solid #cccccc;
+    height: 35px;
+    line-height: 35px;
+    background: #ececec;
+}
+
+td {
+    border: 1px solid #cccccc;
+    height: 35px;
+    line-height: 35px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.TableBtnBar {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.TableBtnBar li {
+    margin-right: 5px;
+    float: left;
+    line-height: 32px;
+}
+
+.TableBtns {
+    height: 32px;
+    line-height: 32px;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 10px;
+    color: #686767;
+}
+
+.JumpInput {
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+/* 交互 */
+
+.LoginBar:hover .LoginCheckBar {
+    display: block;
+}
+
+.CheckBarTexts:hover {
+    color: white;
+    background: #007fbf;
+}
+
+.MainFileHover:hover #MainFileContentList {
+    display: block;
+}
+
+.MeumTitleCells:hover .ListiconBar {
+    background-image: url(../Pic/images/icon08.png);
+}
+
+.MFListCells:hover {
+    background: #3d4755;
+}
+
+.URLBar:hover {
+    background: #919191;
+}
+
+.URLBar:hover .URLTitle {
+    color: white;
+}
+
+.URLBar:hover .CloseBtn {
+    background-image: url(../Pic/images/iconBtn2.png);
+}
+
+tr:hover td {
+    background: #f5f5f5;
+}
+.TableBtnBar li:hover button{
+    background: #5076ac;
+    color: white;
+}
